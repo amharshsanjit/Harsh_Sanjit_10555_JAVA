@@ -27,6 +27,9 @@ public class IfExample {
     }
 }
 
+---
+
+## 📌 2️⃣ If-Else Example
 public class IfElseExample {
     public static void main(String[] args) {
         int number = -5;
@@ -39,6 +42,7 @@ public class IfElseExample {
     }
 }
 
+##
 public class ElseIfExample {
     public static void main(String[] args) {
         int marks = 85;
