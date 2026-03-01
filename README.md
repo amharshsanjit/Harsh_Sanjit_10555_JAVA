@@ -12,105 +12,70 @@ This repository contains basic Java programs demonstrating:
 - ✅ While Loop
 - ✅ Do-While Loop
 
+# ☕ Java Control Statements Demo
+
+## 👨‍💻 Author: Harsh Sanjit
+
+This repository contains a single Java program that demonstrates:
+
+- ✅ If-Else Statement  
+- ✅ For Loop  
+- ✅ While Loop  
+- ✅ Do-While Loop  
+
+It is designed for beginners who are learning Java basics.
+
 ---
 
-## 📌 1️⃣ If Statement Example
+## 📌 Program Description
+
+The program:
+
+- Prints the author's name
+- Checks whether a number is Even or Odd using If-Else
+- Prints numbers using:
+  - For Loop
+  - While Loop
+  - Do-While Loop
+
+---
+
+## 💻 Java Code
 
 ```java
-public class IfExample {
+/*
+ Program: Java If-Else and Loop Example
+ Author: Harsh Sanjit
+*/
+
+public class ControlStatementsDemo {
+
     public static void main(String[] args) {
-        int number = 10;
 
-        if (number > 0) {
-            System.out.println("Number is positive");
-        }
-    }
-}
+        System.out.println("Author: Harsh Sanjit");
 
----
+        int number = 7;
 
-## 📌 2️⃣ If-Else Example
-public class IfElseExample {
-    public static void main(String[] args) {
-        int number = -5;
-
-        if (number >= 0) {
-            System.out.println("Positive number");
+        if (number % 2 == 0) {
+            System.out.println(number + " is Even");
         } else {
-            System.out.println("Negative number");
+            System.out.println(number + " is Odd");
         }
-    }
-}
 
-##
-public class ElseIfExample {
-    public static void main(String[] args) {
-        int marks = 85;
-
-        if (marks >= 90) {
-            System.out.println("Grade A");
-        } else if (marks >= 75) {
-            System.out.println("Grade B");
-        } else if (marks >= 50) {
-            System.out.println("Grade C");
-        } else {
-            System.out.println("Fail");
-        }
-    }
-}
-
-public class NestedIfExample {
-    public static void main(String[] args) {
-        int age = 20;
-        boolean hasID = true;
-
-        if (age >= 18) {
-            if (hasID) {
-                System.out.println("Allowed to enter");
-            } else {
-                System.out.println("ID required");
-            }
-        } else {
-            System.out.println("Not allowed");
-        }
-    }
-}
-
-public class ForLoopExample {
-    public static void main(String[] args) {
         for (int i = 1; i <= 5; i++) {
-            System.out.println("Count: " + i);
+            System.out.println("For Loop: " + i);
         }
-    }
-}
 
-public class WhileLoopExample {
-    public static void main(String[] args) {
-        int i = 1;
-
-        while (i <= 5) {
-            System.out.println("Count: " + i);
-            i++;
+        int j = 5;
+        while (j >= 1) {
+            System.out.println("While Loop: " + j);
+            j--;
         }
-    }
-}
 
-public class DoWhileExample {
-    public static void main(String[] args) {
-        int i = 1;
-
+        int k = 1;
         do {
-            System.out.println("Count: " + i);
-            i++;
-        } while (i <= 5);
+            System.out.println("Do-While Loop: " + k);
+            k++;
+        } while (k <= 3);
     }
 }
-
-
----
-
-If you want, I can also give you:
-- 🔥 A more professional README (for resume/GitHub portfolio)
-- 🎯 With folder structure
-- 📊 With flowchart diagrams
-- 🧠 With practice questions included
